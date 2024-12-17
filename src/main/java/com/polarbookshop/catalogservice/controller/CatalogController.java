@@ -8,7 +8,7 @@ public class CatalogController {
 
     @GetMapping("/greetings")
     String getGreetingMessage() {
-        return "Welcome to PolarBook Shop";
+        return "Welcome to PolarBook Shop catalog";
     }
 
 }
